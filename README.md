@@ -66,7 +66,7 @@
 # Class#11
     Ciclo de vida de un contenedor
        ➔ docker run --name SO -d ubuntu tail -f /dev/null;
-       ➔ docker exec -ti ${nameContainer} bash;
+       ➔ docker exec -it ${nameContainer} bash;
        ➔ docker inspect --format '{{.State.Pid}}' ${nameContainer};
 # Class#12
 # Exponiendo contenedores
